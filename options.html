@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>オプションページ</title>
+    <link rel="stylesheet" href="css/optionstyle.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&amp;subset=japanese" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+    
+<body>
+<div class="page-container">
+    <header>
+        <div id="logo">
+            <img  src="images/logo-all.png">
+        </div>
+    </header>
+    <div id="menu">
+        <ul>
+            <li><a href="#tabpage1">設定</a></li>
+            <li><a href="#tabpage2">つかいかた</a></li>
+            <li><a href="#tabpage3">みてね！</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="tabpage1">
+            <p>現在のミュート対象ワードの一覧です。</p>
+            <button id="allDel">すべてのワードを削除する</button>
+            <input type="button" id="sort" value="ソートする">
+            <ul id="list-group"></ul>
+        </div>
+        <div id="tabpage2">
+            <p>・ツイッターのワードミュートを手軽に行う拡張機能です。</p>
+            <p>・基本的な使い方は
+            「ミュートしたい言葉をドラッグ」→「右クリックして、メニューから『ミュートする』」を選ぶ」→「完了！」</p>
+            <p>・拡張機能の初回導入後は、いちどtwitterをリロードしてください。</p>
+            <p>・プロフィールページ等でもミュート設定が適用されています。ミュートを使いたくない場面では、適宜拡張機能のオン/オフを行ってください。</p>
+            <p>・登録可能ワード数は10,000個です。</p>
+            <p>・ミュートしたいワードにスペース・改行・絵文字等が入り込むとうまくミュートできません。ご注意ください。</p>
+            <p>・開発途上の拡張機能です。随時アップデートを予定しています。</p>
+            <p>（特定ユーザーのみのワードミュート設定、動作の軽量化などを実装予定）</p>
+            <p>・稀にミュート設定が即座に反映されない、漏れが生じる等の現象が見られます。リロード・再インストールで直らない、頻発する等の場合は「みてね！」からご連絡お願いします。</p>
+            <p>・その他機能の意見・ご要望などは右上メニュー「みてね！」からお願いします。</p>
+        </div>
+    </div>
+    <script src="options.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+header{
+    text-align: center;
+}
+
+body{
+    min-width: 196px;
+    font-family: "Kosugi Maru", sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#ver{
+    padding-top: 0px;
+}
+
+#option{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#popOpt{
+    font-size: 14px;
+}

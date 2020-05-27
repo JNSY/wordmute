@@ -1,0 +1,92 @@
+@charset "utf-8";
+html{
+    height: 100%;
+}
+
+a,a:visited{
+    color: #414141;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: "Kosugi Maru", sans-serif;
+    font-size: 18px;
+    color: #414141;
+    overflow-y: scroll;
+}
+
+.page-container{
+    width:720px;
+    position: relative;
+    min-height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header{
+    height: 60px;
+    padding: 0;
+}
+
+
+#logo{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#menu{
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+#menu ul>li{
+    float:left;
+    width: 175px;
+    height: 28px;
+    margin-right: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu ul>li:hover{
+    background: #eee;
+}
+
+#menu ul>li>a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#main{
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    font-size: 14;
+}
+
+#list-group li{
+    padding-bottom: 5px;
+    line-height: 1.5;
+    border-bottom: dashed 1px silver;
+    list-style-type: none!important;
+    
+}
+
+
+#buttonID, #allDel{
+    border-radius: 4px;
+    font-family: "Kosugi Maru", sans-serif;
+    overflow: hidden;
+    
+}
+
+#buttonID:hover{
+    background: #eee;
+}
